@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-top: 50px;
+}
+
+#profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+img#profile{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+    border: 2px solid #2E86C1;
+    border-radius: 100%;
+}
+
+a#instagram{
+    color: #2E86C1;
+}
+
+#links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 70px;
+}
+
+#links a{
+    width: 330px;
+    height: 50px;
+    border: 2px solid #2E86C1;
+    color: #2E86C1;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 12px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#socials{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}

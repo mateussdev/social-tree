@@ -37,6 +37,10 @@ a#instagram{
     color: #2E86C1;
 }
 
+a#instagram:hover{
+    text-decoration: underline;
+}
+
 #links{
     display: flex;
     flex-direction: column;
